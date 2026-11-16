@@ -8,5 +8,7 @@ public class Main {
         System.out.println("Podaj poziom klasy");
         int level = scanner.nextInt();
         System.out.println("Witaj"+name+"Za"+(5-level)+"lata będę pisał maturę !");
+        System.out.println("Co chcesz robić po zakończeniu szkoły średniej");
+        String poszkole = scanner.nextLine();
     }
 }
